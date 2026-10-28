@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "home": {
+      "title": "Ship chandler in Douala | MBSS SARL, marine supplies",
+      "description": "Ship chandler in Douala since 2011: ship provisioning, onboard catering and logistics, with the whole IMPA catalogue delivered on board. Fast quotes, 24/7."
+    },
+    "solutions": {
+      "title": "Ship supply solutions in Douala | MBSS SARL",
+      "description": "Ship provisioning, onboard catering and logistics: everything your vessel needs while calling at Douala."
+    },
+    "catalogue": {
+      "title": "IMPA catalogue: 36 categories delivered in Douala | MBSS SARL",
+      "description": "Provisions, paint, ropes, tools, valves, bearings, electrical equipment: the whole IMPA catalogue supplied and delivered on board in Douala."
+    },
+    "about": {
+      "title": "About MBSS SARL, ship chandler in Douala",
+      "description": "A Cameroonian company founded in 2011 in Douala, MBSS SARL supports shipowners, masters and ship agents with reliable, responsive service."
+    },
+    "workflows": {
+      "title": "How it works: from request to delivery | MBSS SARL",
+      "description": "A simple 4-step process: request, check, sourcing, delivery on board. One dedicated contact for every port call."
+    },
+    "news": {
+      "title": "Port and MBSS SARL news",
+      "description": "News from MBSS SARL and the maritime sector in Douala."
+    },
+    "contact": {
+      "title": "Contact and quote request | MBSS SARL Douala",
+      "description": "Contact MBSS SARL in Douala: 24/7 phone, WhatsApp and a quote form for your port call."
+    },
+    "quote": {
+      "title": "Request a quote for your vessel | MBSS SARL",
+      "description": "Send your supply list, vessel name, port and ETA: we reply quickly with a detailed quote."
+    },
+    "legal": {
+      "title": "Legal notice | MBSS SARL",
+      "description": "Legal notice and privacy policy of the MBSS SARL website."
+    },
+    "service": {
+      "titleSuffix": "| MBSS SARL Douala"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "catalogue": "Catalogue",
+    "news": "News",
+    "about": "About",
+    "workflows": "Workflows",
+    "contact": "Contact",
+    "quote": "Request a quote",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "main": "Main navigation",
+    "mobile": "Mobile menu",
+    "skip": "Skip to content",
+    "language": "Language"
+  },
+  "common": {
+    "discover": "Discover",
+    "learnMore": "Learn more",
+    "seeAll": "See all",
+    "sendList": "Send my list",
+    "available": "Available 24/7",
+    "whatsapp": "Chat on WhatsApp",
+    "call": "Call",
+    "sendWhatsapp": "WhatsApp",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "home": "Home",
+    "backToSolutions": "All our solutions"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ship chandler · Douala, Cameroon",
+      "title": "Your trusted partner for marine supplies",
+      "subtitle": "MBSS SARL supplies vessels calling at port: provisioning, catering and logistics, with the whole IMPA catalogue delivered on board. One single contact, available day and night.",
+      "ctaPrimary": "Request a quote",
+      "ctaSecondary": "Discover our solutions",
+      "badge": "Since {year}, serving vessels at port"
+    },
+    "benefits": {
+      "quality": { "title": "Guaranteed quality", "text": "Products selected to meet the demands of the maritime sector." },
+      "reactivity": { "title": "Responsiveness", "text": "Fast quotes and onboard delivery coordinated with the agent and the port." },
+      "trust": { "title": "A partner you can trust", "text": "A dedicated contact, from the quote to the signed delivery note." },
+      "expertise": { "title": "Maritime expertise", "text": "A team that knows the port of Douala and the pressures of a port call." }
+    },
+    "services": {
+      "eyebrow": "Our solutions",
+      "title": "Everything for your vessel.",
+      "text": "We centralise your orders and coordinate delivery with the agent and the port, for a port call with no time lost.",
+      "discover": "Discover",
+      "cta": "See all our solutions"
+    },
+    "catalog": {
+      "eyebrow": "Catalogue",
+      "title": "The whole IMPA catalogue, delivered on board.",
+      "text": "Provisions, paint, ropes, tools, valves, electrical equipment… We supply all {count} categories of the IMPA catalogue. Send us your list or your codes: we take care of the rest.",
+      "cta": "Send my list"
+    },
+    "stats": {
+      "title": "MBSS in numbers",
+      "founded": "Year founded",
+      "experience": "Of port experience",
+      "yearsUnit": "years",
+      "availability": "Team available",
+      "categories": "Product categories available",
+      "vessels": "Vessels served per year"
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "A simple process, from request to delivery.",
+      "cta": "See the details"
+    },
+    "banner": {
+      "title": "Can't find what you need in the catalogue?",
+      "text": "Our team is here to help you find the right item, at the right time.",
+      "cta": "Request a quote"
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Complete solutions for your port calls.",
+    "intro": "From provisioning to logistics, we bring everything your vessel needs in Douala together under a single point of contact.",
+    "categoriesTitle": "The whole IMPA catalogue",
+    "categoriesText": "Eight families, {count} product categories at your disposal, from the deck to the galley and the engine room.",
+    "ctaTitle": "Need a specific product?",
+    "ctaText": "Send us your list or your IMPA codes: we reply with a detailed quote.",
+    "othersTitle": "Our other solutions",
+    "included": "What we supply",
+    "requestFor": "Request a quote for this service"
+  },
+  "services": {
+    "provisions": {
+      "title": "Food provisions",
+      "short": "Fresh · dry · frozen · water",
+      "pageTitle": "Ship provisions supply in Douala",
+      "description": "Fresh, dry and frozen provisions, water and beverages delivered on board in Douala. Orders from your list, delivery coordinated with the agent and the port.",
+      "intro": "Quality provisions, delivered on board at the right time. We prepare your order from your list and coordinate it with the agent and the port so nothing delays your port call.",
+      "items": [
+        "Fresh produce: fruit, vegetables, meat and fish",
+        "Dry goods and groceries",
+        "Frozen products",
+        "Water and beverages",
+        "Galley cleaning products",
+        "Orders prepared from the ship's list"
+      ]
+    },
+    "catering": {
+      "title": "Onboard catering",
+      "short": "Meals · galley supply",
+      "pageTitle": "Onboard catering for ship crews in Douala",
+      "description": "Meals and galley supplies for crews calling at Douala, with delivery scheduled around your timetable.",
+      "intro": "A well-fed crew is an efficient crew. We stock the galley and organise suitable meals, with delivery planned around the rhythm of your port call.",
+      "items": [
+        "Prepared meals for the crew",
+        "Galley supply",
+        "Menus adapted to the crew's habits",
+        "Bread and bakery products",
+        "Delivery scheduled at the agreed time",
+        "Respect for port-call schedules"
+      ]
+    },
+    "logistics": {
+      "title": "Logistics & transport",
+      "short": "Transit · customs · launch",
+      "pageTitle": "Logistics and transport in Douala: transit and delivery",
+      "description": "Transit, customs formalities, transport to the quay and launch delivery for vessels calling at Douala.",
+      "intro": "Delivery also means the last mile. We handle transit, formalities and transport to the quay or the launch, in coordination with your ship agent.",
+      "items": [
+        "Transit and customs formalities",
+        "Transport to the quay",
+        "Onboard delivery by launch",
+        "Coordination with the ship agent and the port",
+        "Urgent parcels and parts",
+        "Signed delivery note and follow-up"
+      ]
+    }
+  },
+  "catalog": {
+    "eyebrow": "Catalogue",
+    "pageTitle": "The whole IMPA catalogue, delivered on board.",
+    "pageIntro": "Whatever your vessel needs, from the galley to the engine room, we supply it and deliver it in Douala. Browse the {count} categories below.",
+    "searchLabel": "Search a category",
+    "searchPlaceholder": "E.g.: paint, valves, bearings…",
+    "all": "All families",
+    "count": "{count, plural, one {# category} other {# categories}}",
+    "more": "+{count} more",
+    "onRequest": "On request",
+    "noResult": "No category matches your search. Write to us: we will find the product you need.",
+    "missingTitle": "Can't see a product listed?",
+    "missingText": "The catalogue is vast: if you can't find your item, ask us and we will source it.",
+    "cta": "Request a quote",
+    "seeAll": "See the whole catalogue",
+    "families": {
+      "foodWelfare": { "title": "Provisions & welfare", "text": "Everything to feed and look after the crew." },
+      "linenGalley": { "title": "Linen, galley & cabin", "text": "Comfort and hygiene on board." },
+      "deckMooring": { "title": "Deck & mooring", "text": "Ropes, rigging and deck equipment." },
+      "paintCleaning": { "title": "Paint & cleaning", "text": "Keeping the vessel clean and protected." },
+      "safety": { "title": "Safety", "text": "Crew protection and safety equipment." },
+      "tools": { "title": "Tools", "text": "Hand, power, measuring and welding tools." },
+      "pipingHardware": { "title": "Piping & hardware", "text": "Pipes, valves, fittings, fasteners and metals." },
+      "machineryElectrical": { "title": "Machinery & electrical", "text": "Machinery parts, bearings and electrical equipment." }
+    },
+    "categories": {
+      "provisions": "Provisions",
+      "whiskyCigarettes": "Spirits & cigarettes",
+      "welfare": "Welfare items",
+      "medicine": "Medicine",
+      "clothLinen": "Cloth & linen products",
+      "tableware": "Tableware & galley utensils",
+      "clothing": "Clothing",
+      "lavatory": "Lavatory equipment",
+      "brushesMats": "Brushes & mats",
+      "stationery": "Stationery",
+      "rope": "Rope & hawsers",
+      "rigging": "Rigging & general deck items",
+      "nautical": "Nautical equipment",
+      "marinePaint": "Marine paint",
+      "paintingEquipment": "Painting equipment",
+      "cleaning": "Cleaning material & chemicals",
+      "safetyGear": "Safety protection gear",
+      "safetyEquipment": "Safety equipment",
+      "pneumaticElectricalTools": "Pneumatic & electrical tools",
+      "handTools": "Hand tools",
+      "cuttingTools": "Cutting tools",
+      "measuringTools": "Measuring tools",
+      "welding": "Welding equipment",
+      "fishingTools": "Fishing tools",
+      "hose": "Hose & couplings",
+      "pipes": "Pipes & tubes",
+      "pipeFittings": "Pipe & tube fittings",
+      "valves": "Valves & cocks",
+      "hardware": "Hardware",
+      "screwsNuts": "Screws & nuts",
+      "metalSheets": "Metal sheets, bars, etc.",
+      "machinery": "Machinery items",
+      "bearings": "Bearings",
+      "packing": "Packing & jointing",
+      "electrical": "Electrical equipment",
+      "petroleum": "Petroleum products"
+    }
+  },
+  "process": {
+    "request": { "title": "Request", "text": "You send us your list, the port and the ETA by form, email or WhatsApp." },
+    "check": { "title": "Check", "text": "We confirm availability, prices and lead times with a dedicated contact." },
+    "sourcing": { "title": "Sourcing", "text": "We order from our suppliers and prepare your delivery." },
+    "delivery": { "title": "Delivery", "text": "Onboard delivery coordinated with the agent and the port, signed delivery note, invoice." },
+    "step": "Step",
+    "pageTitle": "From your list to delivery.",
+    "pageIntro": "Four clear steps for a supply with no surprises, whether you are heading to Douala or already alongside.",
+    "ctaTitle": "Ready to place your order?",
+    "ctaText": "Send us your list: we come back to you quickly with a quote."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Maritime expertise at the service of your operations.",
+    "text1": "MBSS SARL, Marini & Brice Shipschandler Supplier, is a Cameroonian company based in Douala since {year}. We know the ports, the authorities and the suppliers of the sub-region.",
+    "text2": "Our ambition: to be your preferred maritime supply partner, with a high level of service at a competitive cost.",
+    "history": "Our story",
+    "portsTitle": "Port served",
+    "valuesTitle": "Our values",
+    "values": {
+      "quality": { "title": "Quality", "text": "Reliable products, checked before delivery." },
+      "reliability": { "title": "Reliability", "text": "Deadlines respected and rigorous follow-up." },
+      "proximity": { "title": "Proximity", "text": "Careful listening to your needs." },
+      "commitment": { "title": "Commitment", "text": "A lasting partnership with every client." }
+    },
+    "missionTitle": "Our mission",
+    "missionText": "To be the preferred partner of maritime operators by supplying quality products and services, with personalised support.",
+    "missionCta": "Discover our workflows"
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Port news",
+    "emptyTitle": "Our first news items are coming soon.",
+    "emptyText": "In the meantime, our team remains reachable day and night for any port-call request.",
+    "cta": "Contact us"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your port call.",
+    "intro": "A question, a quote request? Our team answers 24/7.",
+    "hq": "Douala · Head office",
+    "mapTitle": "Map: MBSS SARL in Deido, Douala",
+    "formTitle": "Request a quote"
+  },
+  "quote": {
+    "eyebrow": "Quote",
+    "title": "Request your quote.",
+    "intro": "Tell us the vessel, the port and the ETA, attach your list: we reply quickly.",
+    "contactBlock": "Your details",
+    "vesselBlock": "Your port call",
+    "needBlock": "Your needs",
+    "name": "Full name",
+    "company": "Company / shipowner",
+    "email": "Email",
+    "phone": "Phone / WhatsApp",
+    "vessel": "Vessel name",
+    "imo": "IMO number",
+    "imoHelp": "7 digits, optional",
+    "port": "Port of call",
+    "portOther": "Other port",
+    "eta": "ETA (expected arrival date)",
+    "services": "Services needed",
+    "servicesOptions": {
+      "provisions": "Food provisions",
+      "catering": "Onboard catering",
+      "logistics": "Logistics & transport"
+    },
+    "message": "Message (details, urgency…)",
+    "file": "Attached list (optional)",
+    "fileHelp": "PDF, Excel, Word or CSV, 5 MB maximum",
+    "consent": "I agree that MBSS SARL may use this information to answer my request. See the legal notice.",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "required": "required",
+    "optional": "optional",
+    "responseNote": "Fast reply, 24/7.",
+    "successTitle": "Request sent, thank you!",
+    "successText": "We have received your request and will come back to you very soon. For an emergency, call us or message us on WhatsApp.",
+    "newRequest": "Send another request",
+    "errorGeneric": "Something went wrong. Please try again, or contact us by phone or WhatsApp.",
+    "errorFileSize": "The file is larger than 5 MB.",
+    "errorFileType": "File format not accepted (PDF, Excel, Word, CSV).",
+    "errorTooMany": "Too many requests sent. Please try again in a few minutes.",
+    "errors": {
+      "required": "This field is required.",
+      "tooLong": "Text too long.",
+      "email": "Invalid email address.",
+      "imo": "The IMO number has 7 digits.",
+      "date": "Invalid date.",
+      "services": "Choose at least one service.",
+      "consent": "Your agreement is needed to send the request."
+    }
+  },
+  "footer": {
+    "about": "Marini & Brice Shipschandler Supplier. Ship's Solutions since {year}.",
+    "menu": "Menu",
+    "contact": "Contact 24/7",
+    "follow": "Follow us",
+    "legal": "Legal notice",
+    "rights": "© {year} MBSS SARL. All rights reserved."
+  },
+  "legal": {
+    "title": "Legal notice",
+    "publisher": "Website publisher",
+    "publisherText": "MBSS SARL (Marini & Brice Shipschandler Supplier), a limited liability company under Cameroonian law.",
+    "registration": "Registration",
+    "rccm": "RCCM",
+    "niu": "NIU",
+    "hosting": "Hosting",
+    "hostingText": "The website is hosted by Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States.",
+    "dataTitle": "Personal data",
+    "dataText": "The information entered in the quote form (identity, contact details, port-call details, attached file) is used only to answer your request. It is sent by email to the MBSS SARL team and is neither sold nor passed on to third parties. You may ask for access, correction or deletion of your data by writing to the address shown on the Contact page.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "This website uses no advertising cookies or tracking tools."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "This page does not exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "schema": {
+    "description": "Ship chandler in Douala: ship provisioning, onboard catering and logistics for vessels calling at port, the whole IMPA catalogue delivered on board."
+  }
+}

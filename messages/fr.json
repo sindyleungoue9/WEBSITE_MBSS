@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "home": {
+      "title": "Ship chandler à Douala | MBSS SARL, fournitures maritimes",
+      "description": "Ship chandler à Douala depuis 2011 : avitaillement des navires, catering à bord et logistique, avec tout le catalogue IMPA livré à bord. Devis rapide, 24h/24."
+    },
+    "solutions": {
+      "title": "Solutions d'avitaillement maritime à Douala | MBSS SARL",
+      "description": "Avitaillement en vivres, catering à bord et logistique : tout pour votre navire en escale à Douala."
+    },
+    "catalogue": {
+      "title": "Catalogue IMPA : 36 catégories livrées à Douala | MBSS SARL",
+      "description": "Provisions, peinture, cordages, outillage, vannes, roulements, matériel électrique : tout le catalogue IMPA fourni et livré à bord à Douala."
+    },
+    "about": {
+      "title": "À propos de MBSS SARL, ship chandler à Douala",
+      "description": "Entreprise camerounaise fondée en 2011 à Douala, MBSS SARL accompagne armateurs, capitaines et agents maritimes avec un service fiable et réactif."
+    },
+    "workflows": {
+      "title": "Comment ça marche : de la demande à la livraison | MBSS SARL",
+      "description": "Un processus simple en 4 étapes : demande, vérification, approvisionnement, livraison à bord. Un interlocuteur dédié pour chaque escale."
+    },
+    "news": {
+      "title": "Actualités du port et de MBSS SARL",
+      "description": "Les actualités de MBSS SARL et du secteur maritime à Douala."
+    },
+    "contact": {
+      "title": "Contact et demande de devis | MBSS SARL Douala",
+      "description": "Contactez MBSS SARL à Douala : téléphone 24h/24, WhatsApp et formulaire de devis pour votre escale."
+    },
+    "quote": {
+      "title": "Demander un devis pour votre navire | MBSS SARL",
+      "description": "Envoyez votre liste d'avitaillement, le nom du navire, le port et l'ETA : nous vous répondons rapidement avec un devis détaillé."
+    },
+    "legal": {
+      "title": "Mentions légales | MBSS SARL",
+      "description": "Mentions légales et politique de confidentialité du site de MBSS SARL."
+    },
+    "service": {
+      "titleSuffix": "| MBSS SARL Douala"
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "solutions": "Solutions",
+    "catalogue": "Catalogue",
+    "news": "News",
+    "about": "À propos",
+    "workflows": "Workflows",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "menu": "Menu",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "main": "Navigation principale",
+    "mobile": "Menu mobile",
+    "skip": "Aller au contenu",
+    "language": "Langue"
+  },
+  "common": {
+    "discover": "Découvrir",
+    "learnMore": "En savoir plus",
+    "seeAll": "Voir tout",
+    "sendList": "Envoyer ma liste",
+    "available": "Disponibles 24h/24 · 7j/7",
+    "whatsapp": "Écrire sur WhatsApp",
+    "call": "Appeler",
+    "sendWhatsapp": "WhatsApp",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "home": "Accueil",
+    "backToSolutions": "Toutes nos solutions"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ship chandler · Douala, Cameroun",
+      "title": "Votre partenaire de confiance en fournitures maritimes",
+      "subtitle": "MBSS SARL approvisionne les navires en escale : avitaillement, catering et logistique, avec tout le catalogue IMPA livré à bord. Un interlocuteur unique, joignable jour et nuit.",
+      "ctaPrimary": "Demander un devis",
+      "ctaSecondary": "Découvrir nos solutions",
+      "badge": "Depuis {year}, au service des navires en escale"
+    },
+    "benefits": {
+      "quality": { "title": "Qualité garantie", "text": "Des produits sélectionnés selon les exigences du secteur maritime." },
+      "reactivity": { "title": "Réactivité", "text": "Devis rapide et livraison à bord coordonnée avec l'agent et le port." },
+      "trust": { "title": "Partenaire de confiance", "text": "Un interlocuteur dédié, du devis jusqu'au bon de livraison signé." },
+      "expertise": { "title": "Expertise maritime", "text": "Une équipe qui connaît le port de Douala et les contraintes d'une escale." }
+    },
+    "services": {
+      "eyebrow": "Nos solutions",
+      "title": "Tout pour votre navire.",
+      "text": "Nous centralisons vos commandes et coordonnons la livraison avec l'agent et le port, pour une escale sans temps perdu.",
+      "discover": "Découvrir",
+      "cta": "Voir toutes nos solutions"
+    },
+    "catalog": {
+      "eyebrow": "Catalogue",
+      "title": "Tout le catalogue IMPA, livré à bord.",
+      "text": "Provisions, peinture, cordages, outillage, vannes, matériel électrique… Nous fournissons l'ensemble des {count} catégories du catalogue IMPA. Envoyez-nous votre liste ou vos références : nous nous occupons du reste.",
+      "cta": "Envoyer ma liste"
+    },
+    "stats": {
+      "title": "MBSS en chiffres",
+      "founded": "Année de fondation",
+      "experience": "D'expérience au port",
+      "yearsUnit": "ans",
+      "availability": "Équipe disponible",
+      "categories": "Catégories de produits disponibles",
+      "vessels": "Navires servis par an"
+    },
+    "process": {
+      "eyebrow": "Processus",
+      "title": "Un processus simple, de la demande à la livraison.",
+      "cta": "Voir le détail"
+    },
+    "banner": {
+      "title": "Votre besoin n'est pas dans le catalogue ?",
+      "text": "Notre équipe est là pour vous accompagner et trouver la bonne référence, au bon moment.",
+      "cta": "Demander un devis"
+    }
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "title": "Des solutions complètes pour vos escales.",
+    "intro": "De l'avitaillement à la logistique, nous réunissons en un seul point de contact tout ce dont votre navire a besoin à Douala.",
+    "categoriesTitle": "Tout le catalogue IMPA",
+    "categoriesText": "Huit familles, {count} catégories de produits à votre disposition, du pont à la cuisine en passant par la machine.",
+    "ctaTitle": "Besoin d'un produit précis ?",
+    "ctaText": "Envoyez-nous votre liste ou vos références IMPA : nous répondons avec un devis détaillé.",
+    "othersTitle": "Nos autres solutions",
+    "included": "Ce que nous fournissons",
+    "requestFor": "Demander un devis pour ce service"
+  },
+  "services": {
+    "provisions": {
+      "title": "Avitaillement en vivres",
+      "short": "Frais · sec · surgelé · eau",
+      "pageTitle": "Avitaillement en vivres pour navires à Douala",
+      "description": "Vivres frais, secs et surgelés, eau et boissons livrés à bord à Douala. Commande sur liste, livraison coordonnée avec l'agent et le port.",
+      "intro": "Des vivres de qualité, livrés à bord au bon moment. Nous préparons votre commande à partir de votre liste et la coordonnons avec l'agent et le port pour que rien ne retarde votre escale.",
+      "items": [
+        "Produits frais : fruits, légumes, viandes et poissons",
+        "Produits secs et épicerie",
+        "Produits surgelés",
+        "Eau et boissons",
+        "Produits d'entretien de cuisine",
+        "Commandes établies à partir de la liste du bord"
+      ]
+    },
+    "catering": {
+      "title": "Catering à bord",
+      "short": "Repas · cambuse",
+      "pageTitle": "Catering à bord pour équipages de navires à Douala",
+      "description": "Repas et approvisionnement de la cambuse pour les équipages en escale à Douala, avec livraison planifiée selon vos horaires.",
+      "intro": "Un équipage bien nourri est un équipage efficace. Nous approvisionnons la cambuse et organisons des repas adaptés, avec une livraison planifiée selon le rythme de votre escale.",
+      "items": [
+        "Repas préparés pour l'équipage",
+        "Approvisionnement de la cambuse",
+        "Menus adaptés aux habitudes de l'équipage",
+        "Pain et produits de boulangerie",
+        "Livraison planifiée à l'heure convenue",
+        "Respect des horaires d'escale"
+      ]
+    },
+    "logistics": {
+      "title": "Logistique & transport",
+      "short": "Transit · douane · vedette",
+      "pageTitle": "Logistique et transport maritime à Douala : transit et livraison",
+      "description": "Transit, formalités douanières, transport jusqu'au quai et livraison par vedette pour navires en escale à Douala.",
+      "intro": "La livraison, c'est aussi le dernier kilomètre. Nous gérons le transit, les formalités et le transport jusqu'au quai ou à la vedette, en coordination avec votre agent maritime.",
+      "items": [
+        "Transit et formalités douanières",
+        "Transport jusqu'au quai",
+        "Livraison à bord par vedette",
+        "Coordination avec l'agent maritime et le port",
+        "Colis et pièces urgents",
+        "Bon de livraison signé et suivi"
+      ]
+    }
+  },
+  "catalog": {
+    "eyebrow": "Catalogue",
+    "pageTitle": "Tout le catalogue IMPA, livré à bord.",
+    "pageIntro": "Quel que soit le besoin de votre navire, de la cambuse à la salle des machines, nous le fournissons et le livrons à Douala. Parcourez les {count} catégories ci-dessous.",
+    "searchLabel": "Rechercher une catégorie",
+    "searchPlaceholder": "Ex. : peinture, vannes, roulements…",
+    "all": "Toutes les familles",
+    "count": "{count, plural, one {# catégorie} other {# catégories}}",
+    "more": "+{count} autres",
+    "onRequest": "Sur demande",
+    "noResult": "Aucune catégorie ne correspond à votre recherche. Écrivez-nous : nous trouvons le produit qu'il vous faut.",
+    "missingTitle": "Un produit n'est pas listé ?",
+    "missingText": "Le catalogue est vaste : si vous ne trouvez pas votre article, demandez-le-nous, nous le trouvons.",
+    "cta": "Demander un devis",
+    "seeAll": "Voir tout le catalogue",
+    "families": {
+      "foodWelfare": { "title": "Vivres & bien-être", "text": "Tout pour nourrir et soigner l'équipage." },
+      "linenGalley": { "title": "Linge, cuisine & cabine", "text": "Le confort et l'hygiène à bord." },
+      "deckMooring": { "title": "Pont & amarrage", "text": "Cordages, gréement et équipements de pont." },
+      "paintCleaning": { "title": "Peinture & entretien", "text": "Garder le navire propre et protégé." },
+      "safety": { "title": "Sécurité", "text": "Protection de l'équipage et matériel de sécurité." },
+      "tools": { "title": "Outillage", "text": "Outils à main, électriques, de mesure et de soudure." },
+      "pipingHardware": { "title": "Tuyauterie & quincaillerie", "text": "Tubes, vannes, raccords, visserie et métaux." },
+      "machineryElectrical": { "title": "Machines & électricité", "text": "Pièces de machines, roulements et matériel électrique." }
+    },
+    "categories": {
+      "provisions": "Provisions et vivres",
+      "whiskyCigarettes": "Spiritueux et cigarettes",
+      "welfare": "Articles de bien-être",
+      "medicine": "Pharmacie de bord",
+      "clothLinen": "Linge et textiles",
+      "tableware": "Vaisselle et ustensiles de cuisine",
+      "clothing": "Vêtements de travail",
+      "lavatory": "Équipements sanitaires",
+      "brushesMats": "Brosses et tapis",
+      "stationery": "Papeterie",
+      "rope": "Cordages et aussières",
+      "rigging": "Gréement et équipements de pont",
+      "nautical": "Équipements nautiques",
+      "marinePaint": "Peintures marines",
+      "paintingEquipment": "Matériel de peinture",
+      "cleaning": "Produits d'entretien et chimiques",
+      "safetyGear": "Équipements de protection individuelle",
+      "safetyEquipment": "Équipements de sécurité",
+      "pneumaticElectricalTools": "Outils pneumatiques et électriques",
+      "handTools": "Outils à main",
+      "cuttingTools": "Outils de coupe",
+      "measuringTools": "Instruments de mesure",
+      "welding": "Matériel de soudure",
+      "fishingTools": "Matériel de pêche",
+      "hose": "Tuyaux flexibles et raccords",
+      "pipes": "Tuyaux et tubes",
+      "pipeFittings": "Raccords de tuyauterie",
+      "valves": "Vannes et robinets",
+      "hardware": "Quincaillerie",
+      "screwsNuts": "Vis et écrous",
+      "metalSheets": "Tôles, barres et profilés",
+      "machinery": "Pièces de machines",
+      "bearings": "Roulements",
+      "packing": "Garnitures et joints",
+      "electrical": "Matériel électrique",
+      "petroleum": "Produits pétroliers"
+    }
+  },
+  "process": {
+    "request": { "title": "Demande", "text": "Vous nous transmettez votre liste, le port et l'ETA par formulaire, e-mail ou WhatsApp." },
+    "check": { "title": "Vérification", "text": "Nous confirmons la disponibilité, les prix et les délais avec un interlocuteur dédié." },
+    "sourcing": { "title": "Approvisionnement", "text": "Nous commandons auprès de nos fournisseurs et préparons votre livraison." },
+    "delivery": { "title": "Livraison", "text": "Livraison à bord coordonnée avec l'agent et le port, bon de livraison signé, facture." },
+    "step": "Étape",
+    "pageTitle": "De votre liste à la livraison.",
+    "pageIntro": "Quatre étapes claires pour un approvisionnement sans surprise, que vous soyez en route vers Douala ou déjà à quai.",
+    "ctaTitle": "Prêt à lancer votre commande ?",
+    "ctaText": "Transmettez-nous votre liste : nous revenons vers vous rapidement avec un devis."
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Une expertise maritime au service de vos opérations.",
+    "text1": "MBSS SARL, Marini & Brice Shipschandler Supplier, est une entreprise camerounaise basée à Douala depuis {year}. Nous connaissons les ports, les autorités et les fournisseurs de la sous-région.",
+    "text2": "Notre ambition : être votre partenaire d'approvisionnement maritime privilégié, avec un service de haut niveau à un coût compétitif.",
+    "history": "Notre histoire",
+    "portsTitle": "Port desservi",
+    "valuesTitle": "Nos valeurs",
+    "values": {
+      "quality": { "title": "Qualité", "text": "Des produits fiables, vérifiés avant livraison." },
+      "reliability": { "title": "Fiabilité", "text": "Des délais respectés et un suivi rigoureux." },
+      "proximity": { "title": "Proximité", "text": "Une écoute attentive de vos besoins." },
+      "commitment": { "title": "Engagement", "text": "Une collaboration durable avec chaque client." }
+    },
+    "missionTitle": "Notre mission",
+    "missionText": "Être le partenaire privilégié des acteurs du secteur maritime en leur fournissant des produits et services de qualité, avec un accompagnement personnalisé.",
+    "missionCta": "Découvrir nos workflows"
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "Actualités du port",
+    "emptyTitle": "Nos premières actualités arrivent bientôt.",
+    "emptyText": "En attendant, notre équipe reste joignable jour et nuit pour toute demande d'escale.",
+    "cta": "Nous contacter"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons de votre escale.",
+    "intro": "Une question, une demande de devis ? Notre équipe répond 24h/24, 7j/7.",
+    "hq": "Douala · Siège",
+    "mapTitle": "Carte : MBSS SARL à Deido, Douala",
+    "formTitle": "Demander un devis"
+  },
+  "quote": {
+    "eyebrow": "Devis",
+    "title": "Demandez votre devis.",
+    "intro": "Indiquez le navire, le port et l'ETA, joignez votre liste : nous vous répondons rapidement.",
+    "contactBlock": "Vos coordonnées",
+    "vesselBlock": "Votre escale",
+    "needBlock": "Votre besoin",
+    "name": "Nom et prénom",
+    "company": "Société / armateur",
+    "email": "E-mail",
+    "phone": "Téléphone / WhatsApp",
+    "vessel": "Nom du navire",
+    "imo": "Numéro IMO",
+    "imoHelp": "7 chiffres, facultatif",
+    "port": "Port d'escale",
+    "portOther": "Autre port",
+    "eta": "ETA (date d'arrivée prévue)",
+    "services": "Prestations souhaitées",
+    "servicesOptions": {
+      "provisions": "Avitaillement en vivres",
+      "catering": "Catering à bord",
+      "logistics": "Logistique & transport"
+    },
+    "message": "Message (précisions, urgence…)",
+    "file": "Liste jointe (facultatif)",
+    "fileHelp": "PDF, Excel, Word ou CSV, 5 Mo maximum",
+    "consent": "J'accepte que MBSS SARL utilise ces informations pour répondre à ma demande. Voir les mentions légales.",
+    "submit": "Envoyer ma demande",
+    "sending": "Envoi en cours…",
+    "required": "obligatoire",
+    "optional": "facultatif",
+    "responseNote": "Réponse rapide, 24h/24.",
+    "successTitle": "Demande envoyée, merci !",
+    "successText": "Nous avons bien reçu votre demande et revenons vers vous très vite. Pour une urgence, appelez-nous ou écrivez-nous sur WhatsApp.",
+    "newRequest": "Envoyer une autre demande",
+    "errorGeneric": "Une erreur est survenue. Réessayez, ou contactez-nous par téléphone ou WhatsApp.",
+    "errorFileSize": "Le fichier dépasse 5 Mo.",
+    "errorFileType": "Format de fichier non accepté (PDF, Excel, Word, CSV).",
+    "errorTooMany": "Trop de demandes envoyées. Réessayez dans quelques minutes.",
+    "errors": {
+      "required": "Ce champ est obligatoire.",
+      "tooLong": "Texte trop long.",
+      "email": "Adresse e-mail invalide.",
+      "imo": "Le numéro IMO comporte 7 chiffres.",
+      "date": "Date invalide.",
+      "services": "Choisissez au moins une prestation.",
+      "consent": "Votre accord est nécessaire pour envoyer la demande."
+    }
+  },
+  "footer": {
+    "about": "Marini & Brice Shipschandler Supplier. Ship's Solutions depuis {year}.",
+    "menu": "Menu",
+    "contact": "Contact 24/7",
+    "follow": "Suivez-nous",
+    "legal": "Mentions légales",
+    "rights": "© {year} MBSS SARL. Tous droits réservés."
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "publisher": "Éditeur du site",
+    "publisherText": "MBSS SARL (Marini & Brice Shipschandler Supplier), société à responsabilité limitée de droit camerounais.",
+    "registration": "Immatriculation",
+    "rccm": "RCCM",
+    "niu": "NIU",
+    "hosting": "Hébergement",
+    "hostingText": "Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.",
+    "dataTitle": "Données personnelles",
+    "dataText": "Les informations saisies dans le formulaire de devis (identité, coordonnées, détails de l'escale, fichier joint) servent uniquement à répondre à votre demande. Elles sont transmises par e-mail à l'équipe de MBSS SARL et ne sont ni vendues ni cédées à des tiers. Vous pouvez demander l'accès, la rectification ou la suppression de vos données en nous écrivant à l'adresse indiquée sur la page Contact.",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "Ce site n'utilise aucun cookie publicitaire ni outil de suivi."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "Cette page n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "schema": {
+    "description": "Ship chandler à Douala : avitaillement, catering à bord et logistique pour navires en escale, tout le catalogue IMPA livré à bord."
+  }
+}

@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+/* Palette et polices de la maquette MBSS */
+@theme {
+  --color-brand: #2450f0;
+  --color-brand-dark: #1a3bb8;
+  --color-leaf: #22a04b;
+  --color-leaf-dark: #17803b; /* vert foncé : texte lisible (contraste conforme) */
+  --color-navy: #0a1a3a;
+  --color-night: #06112b;
+  --color-ink: #24324f;
+  --color-muted: #4a5878;
+  --color-mist: #f3f6fc;
+  --color-line: #dce3f0;
+
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-display: var(--font-barlow-condensed), "Arial Narrow", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem; /* l'en-tête collant ne cache pas les titres */
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Focus visible pour la navigation au clavier */
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.wave-drift {
+  animation: drift 18s linear infinite;
+}
+
+/* Le navire se balance doucement sur l'eau */
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-9px) rotate(-0.8deg);
+  }
+}
+.ship-bob {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: bob 6s ease-in-out infinite;
+}
+
+/* Bandeau défilant du catalogue */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 90s linear infinite;
+}
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Visiteurs qui ont réglé leur appareil sur "réduire les animations" :
+   plus de mouvement, et tout le contenu est affiché immédiatement */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+  .wave-drift,
+  .ship-bob,
+  .marquee-track {
+    animation: none !important;
+  }
+  .marquee {
+    overflow-x: auto;
+  }
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  [data-parallax] {
+    transform: none !important;
+  }
+}
