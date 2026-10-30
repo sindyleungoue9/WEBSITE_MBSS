@@ -63,6 +63,171 @@ body {
   animation: bob 6s ease-in-out infinite;
 }
 
+/* Décor de la scène du navire (ShipArt) : nuages, mouettes, fumée, écume, reflet */
+@keyframes cloud-drift {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: translateX(60px);
+  }
+}
+.cloud-drift {
+  animation: cloud-drift 40s ease-in-out infinite alternate;
+}
+@keyframes gull-fly {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(40px, -10px);
+  }
+}
+.gull-fly {
+  animation: gull-fly 14s ease-in-out infinite;
+}
+@keyframes smoke {
+  0% {
+    transform: translate(0, 6px) scale(0.7);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.85;
+  }
+  100% {
+    transform: translate(26px, -26px) scale(1.5);
+    opacity: 0;
+  }
+}
+.smoke {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: smoke 4s ease-out infinite;
+}
+@keyframes wake {
+  0%,
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-8px);
+    opacity: 0.6;
+  }
+}
+.wake {
+  animation: wake 3.5s ease-in-out infinite;
+}
+@keyframes glint {
+  0%,
+  100% {
+    opacity: 0.15;
+  }
+  50% {
+    opacity: 0.45;
+  }
+}
+.sun-glint {
+  animation: glint 3s ease-in-out infinite;
+}
+
+/* Carte des pays d'action (AfricaMap) */
+.map-country {
+  fill: rgba(255, 255, 255, 0.07);
+  stroke: rgba(255, 255, 255, 0.16);
+  stroke-width: 0.6;
+  transition: fill 0.35s, stroke 0.35s;
+}
+.map-country.map-on {
+  fill: rgba(76, 194, 122, 0.5);
+  stroke: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+}
+.map-country.map-on:hover,
+.map-country.map-on:focus,
+.map-country.map-act {
+  fill: rgba(125, 235, 168, 0.85);
+  outline: none;
+}
+.map-country.map-base {
+  fill: rgba(106, 141, 255, 0.8);
+  stroke: #fff;
+}
+.map-country.map-base:hover,
+.map-country.map-base.map-act {
+  fill: #8aa3ff;
+}
+.map-arc {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.55);
+  stroke-width: 1.3;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.map-arc-act {
+  stroke: #7fe09e;
+  stroke-width: 2.4;
+}
+.map-in .map-arc {
+  animation: map-draw 1.8s cubic-bezier(0.22, 0.8, 0.24, 1) forwards;
+}
+@keyframes map-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.map-dot {
+  fill: #7fe09e;
+  opacity: 0;
+}
+.map-in .map-dot {
+  animation: map-fade 0.5s forwards;
+}
+@keyframes map-fade {
+  to {
+    opacity: 1;
+  }
+}
+.map-label {
+  fill: #fff;
+  font: 700 15px var(--font-display, sans-serif);
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  paint-order: stroke;
+  stroke: rgba(6, 16, 38, 0.9);
+  stroke-width: 4px;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.map-label-act {
+  opacity: 1;
+}
+.map-pulse {
+  fill: none;
+  stroke: #8aa3ff;
+  stroke-width: 2;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: map-ring 2.4s infinite;
+}
+@keyframes map-ring {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(3.4);
+    opacity: 0;
+  }
+}
+@media (max-width: 560px) {
+  .map-label {
+    font-size: 19px;
+  }
+}
+
 /* Bandeau défilant du catalogue */
 @keyframes marquee {
   from {
@@ -94,6 +259,14 @@ body {
   }
   .wave-drift,
   .ship-bob,
+  .cloud-drift,
+  .gull-fly,
+  .smoke,
+  .wake,
+  .sun-glint,
+  .map-pulse,
+  .map-in .map-arc,
+  .map-in .map-dot,
   .marquee-track {
     animation: none !important;
   }

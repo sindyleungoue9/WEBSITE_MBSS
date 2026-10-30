@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { NAV, SITE, WHATSAPP_URL } from "@/lib/site";
+import { NAV, SITE } from "@/lib/site";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -39,9 +39,6 @@ export function Footer() {
           <span className="mb-2 font-bold text-white">{t("contact")}</span>
           <a href={`tel:${SITE.phone}`} className={linkClass}>
             {SITE.phoneDisplay}
-          </a>
-          <a href={WHATSAPP_URL} className={linkClass} rel="noopener">
-            WhatsApp {SITE.whatsappDisplay}
           </a>
           {SITE.email && (
             <a href={`mailto:${SITE.email}`} className={linkClass}>

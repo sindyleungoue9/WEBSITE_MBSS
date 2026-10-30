@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { WORKFLOW_PHOTOS } from "@/lib/media";
 import { STEPS } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 import { Icon } from "@/components/Icon";
@@ -25,7 +27,7 @@ export default async function WorkflowsPage({ params }: { params: Promise<{ loca
         <Container className="py-20">
           <ol className="flex flex-col">
             {STEPS.map((s, i) => (
-              <Reveal as="li" key={s.key} className="grid gap-4 border-t border-line py-10 md:grid-cols-[200px_1fr] md:gap-10">
+              <Reveal as="li" key={s.key} className="grid items-center gap-4 border-t border-line py-10 md:grid-cols-[160px_1fr_300px] md:gap-10">
                 <div className="flex items-center gap-4 font-display text-xl font-bold tracking-[0.1em] text-brand">
                   <span className="flex size-14 items-center justify-center bg-[#E8EEFF]">
                     <Icon name={s.icon} className="size-7" />
@@ -35,6 +37,9 @@ export default async function WorkflowsPage({ params }: { params: Promise<{ loca
                 <div className="flex flex-col gap-2">
                   <h2 className="font-display text-4xl font-bold uppercase text-navy">{p(`${s.key}.title`)}</h2>
                   <p className="max-w-2xl text-lg leading-relaxed text-muted">{p(`${s.key}.text`)}</p>
+                </div>
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-mist shadow-lg shadow-navy/10">
+                  <Image src={WORKFLOW_PHOTOS[i]} alt="" fill sizes="(min-width: 768px) 300px, 100vw" className="object-cover" />
                 </div>
               </Reveal>
             ))}

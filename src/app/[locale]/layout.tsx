@@ -8,7 +8,6 @@ import { SITE } from "@/lib/site";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { ScrollProgress } from "@/components/ScrollProgress";
-import { WhatsAppButton } from "@/components/WhatsAppButton";
 import "../globals.css";
 
 const barlow = Barlow({
@@ -70,7 +69,6 @@ export default async function LocaleLayout({
           <Header />
           <main id="contenu">{children}</main>
           <Footer />
-          <WhatsAppButton />
         </NextIntlClientProvider>
       </body>
     </html>

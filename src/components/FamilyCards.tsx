@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CATALOG_FAMILIES } from "@/lib/site";
@@ -6,6 +7,18 @@ import { Reveal } from "./Reveal";
 import { TiltCard } from "./TiltCard";
 
 const PREVIEW = 3; // nombre de catégories montrées sur la carte
+
+// Photo représentative de chaque famille (fichiers de public/images/catalog/)
+const FAMILY_IMAGE: Record<(typeof CATALOG_FAMILIES)[number]["key"], string> = {
+  foodWelfare: "provisions",
+  linenGalley: "tableware",
+  deckMooring: "rope",
+  paintCleaning: "marinePaint",
+  safety: "safetyGear",
+  tools: "handTools",
+  pipingHardware: "valves",
+  machineryElectrical: "bearings",
+};
 
 // Les 8 familles du catalogue sous forme de cartes cliquables (accueil et page Solutions)
 export function FamilyCards({ dark = false }: { dark?: boolean }) {
@@ -26,6 +39,15 @@ export function FamilyCards({ dark = false }: { dark?: boolean }) {
                   : "border-line bg-white shadow-sm shadow-navy/5 hover:border-brand hover:shadow-xl hover:shadow-navy/10"
               }`}
             >
+              <span className="relative -mx-6 -mt-6 block aspect-[4/3] overflow-hidden bg-white">
+                <Image
+                  src={`/images/catalog/${FAMILY_IMAGE[f.key]}.jpg`}
+                  alt=""
+                  fill
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-contain p-2 transition-transform duration-500 group-hover:scale-105"
+                />
+              </span>
               <span className="flex items-center justify-between">
                 <span
                   className={`flex size-14 items-center justify-center transition-colors ${

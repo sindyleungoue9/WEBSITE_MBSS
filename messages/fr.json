@@ -26,7 +26,7 @@
     },
     "contact": {
       "title": "Contact et demande de devis | MBSS SARL Douala",
-      "description": "Contactez MBSS SARL à Douala : téléphone 24h/24, WhatsApp et formulaire de devis pour votre escale."
+      "description": "Contactez MBSS SARL à Douala : téléphone 24h/24 et formulaire de devis pour votre escale."
     },
     "quote": {
       "title": "Demander un devis pour votre navire | MBSS SARL",
@@ -63,9 +63,7 @@
     "seeAll": "Voir tout",
     "sendList": "Envoyer ma liste",
     "available": "Disponibles 24h/24 · 7j/7",
-    "whatsapp": "Écrire sur WhatsApp",
     "call": "Appeler",
-    "sendWhatsapp": "WhatsApp",
     "address": "Adresse",
     "phone": "Téléphone",
     "email": "E-mail",
@@ -244,7 +242,7 @@
     }
   },
   "process": {
-    "request": { "title": "Demande", "text": "Vous nous transmettez votre liste, le port et l'ETA par formulaire, e-mail ou WhatsApp." },
+    "request": { "title": "Demande", "text": "Vous nous transmettez votre liste, le port et l'ETA par formulaire ou par e-mail." },
     "check": { "title": "Vérification", "text": "Nous confirmons la disponibilité, les prix et les délais avec un interlocuteur dédié." },
     "sourcing": { "title": "Approvisionnement", "text": "Nous commandons auprès de nos fournisseurs et préparons votre livraison." },
     "delivery": { "title": "Livraison", "text": "Livraison à bord coordonnée avec l'agent et le port, bon de livraison signé, facture." },
@@ -270,7 +268,31 @@
     },
     "missionTitle": "Notre mission",
     "missionText": "Être le partenaire privilégié des acteurs du secteur maritime en leur fournissant des produits et services de qualité, avec un accompagnement personnalisé.",
-    "missionCta": "Découvrir nos workflows"
+    "missionCta": "Découvrir nos workflows",
+    "photoMain": "Opérations de MBSS SARL",
+    "since": "Au service des navires depuis",
+    "team": {
+      "eyebrow": "Direction",
+      "title": "Les personnes derrière chaque livraison",
+      "roles": {
+        "ceo": "Présidente-directrice générale",
+        "md": "Directeur général",
+        "td": "Directeur technique",
+        "pm": "Manager partenaire et comptable"
+      }
+    },
+    "network": {
+      "eyebrow": "Notre réseau",
+      "title": "15 pays d'activité, un partenaire camerounais",
+      "text": "Depuis Douala, MBSS coordonne les livraisons dans toute la sous-région et au-delà. Touchez un pays pour voir son port principal.",
+      "mapLabel": "Carte de l'Afrique avec les pays d'activité de MBSS en surbrillance",
+      "selected": "Pays sélectionné",
+      "homeBase": "Base de MBSS",
+      "mainPort": "Port principal",
+      "countries": "Pays d'activité",
+      "baseCount": "Base à Douala",
+      "note": "Ports principaux donnés à titre indicatif. Les ports réellement desservis sont à confirmer avec MBSS."
+    }
   },
   "news": {
     "eyebrow": "News",
@@ -297,7 +319,7 @@
     "name": "Nom et prénom",
     "company": "Société / armateur",
     "email": "E-mail",
-    "phone": "Téléphone / WhatsApp",
+    "phone": "Téléphone",
     "vessel": "Nom du navire",
     "imo": "Numéro IMO",
     "imoHelp": "7 chiffres, facultatif",
@@ -320,9 +342,9 @@
     "optional": "facultatif",
     "responseNote": "Réponse rapide, 24h/24.",
     "successTitle": "Demande envoyée, merci !",
-    "successText": "Nous avons bien reçu votre demande et revenons vers vous très vite. Pour une urgence, appelez-nous ou écrivez-nous sur WhatsApp.",
+    "successText": "Nous avons bien reçu votre demande et revenons vers vous très vite. Pour une urgence, appelez-nous.",
     "newRequest": "Envoyer une autre demande",
-    "errorGeneric": "Une erreur est survenue. Réessayez, ou contactez-nous par téléphone ou WhatsApp.",
+    "errorGeneric": "Une erreur est survenue. Réessayez, ou contactez-nous par téléphone.",
     "errorFileSize": "Le fichier dépasse 5 Mo.",
     "errorFileType": "Format de fichier non accepté (PDF, Excel, Word, CSV).",
     "errorTooMany": "Trop de demandes envoyées. Réessayez dans quelques minutes.",

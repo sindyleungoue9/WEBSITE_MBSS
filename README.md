@@ -17,7 +17,7 @@ Puis ouvrez http://localhost:3000 (le site redirige vers `/fr`).
 
 | Je veux changer… | Fichier |
 |---|---|
-| Téléphone, adresse, WhatsApp, ports, année de fondation | `src/lib/site.ts` |
+| Téléphone, adresse, ports, année de fondation | `src/lib/site.ts` |
 | Tous les textes (français) | `messages/fr.json` |
 | Tous les textes (anglais) | `messages/en.json` |
 | Couleurs et polices | `src/app/globals.css` |

@@ -1,5 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { SITE, WHATSAPP_URL } from "@/lib/site";
+import { SITE } from "@/lib/site";
 import { pageMetadata } from "@/lib/seo";
 import { Icon } from "@/components/Icon";
 import { QuoteForm } from "@/components/QuoteForm";
@@ -41,10 +41,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               <a href={`tel:${SITE.phone}`} className={`${row} font-semibold text-brand`}>
                 <Icon name="phone" className="mt-1 size-6 shrink-0" />
                 {SITE.phoneDisplay}
-              </a>
-              <a href={WHATSAPP_URL} rel="noopener" className={`${row} font-semibold text-leaf-dark`}>
-                <Icon name="chat" className="mt-1 size-6 shrink-0" />
-                WhatsApp {SITE.whatsappDisplay}
               </a>
               {SITE.email && (
                 <a href={`mailto:${SITE.email}`} className={`${row} font-semibold text-brand`}>

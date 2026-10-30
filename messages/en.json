@@ -26,7 +26,7 @@
     },
     "contact": {
       "title": "Contact and quote request | MBSS SARL Douala",
-      "description": "Contact MBSS SARL in Douala: 24/7 phone, WhatsApp and a quote form for your port call."
+      "description": "Contact MBSS SARL in Douala: 24/7 phone and a quote form for your port call."
     },
     "quote": {
       "title": "Request a quote for your vessel | MBSS SARL",
@@ -63,9 +63,7 @@
     "seeAll": "See all",
     "sendList": "Send my list",
     "available": "Available 24/7",
-    "whatsapp": "Chat on WhatsApp",
     "call": "Call",
-    "sendWhatsapp": "WhatsApp",
     "address": "Address",
     "phone": "Phone",
     "email": "Email",
@@ -244,7 +242,7 @@
     }
   },
   "process": {
-    "request": { "title": "Request", "text": "You send us your list, the port and the ETA by form, email or WhatsApp." },
+    "request": { "title": "Request", "text": "You send us your list, the port and the ETA by form or email." },
     "check": { "title": "Check", "text": "We confirm availability, prices and lead times with a dedicated contact." },
     "sourcing": { "title": "Sourcing", "text": "We order from our suppliers and prepare your delivery." },
     "delivery": { "title": "Delivery", "text": "Onboard delivery coordinated with the agent and the port, signed delivery note, invoice." },
@@ -270,7 +268,31 @@
     },
     "missionTitle": "Our mission",
     "missionText": "To be the preferred partner of maritime operators by supplying quality products and services, with personalised support.",
-    "missionCta": "Discover our workflows"
+    "missionCta": "Discover our workflows",
+    "photoMain": "MBSS SARL operations",
+    "since": "Serving vessels since",
+    "team": {
+      "eyebrow": "Leadership",
+      "title": "The people behind every delivery",
+      "roles": {
+        "ceo": "Chief Executive Officer",
+        "md": "Managing Director",
+        "td": "Technical Director",
+        "pm": "Partner manager and accountant"
+      }
+    },
+    "network": {
+      "eyebrow": "Our network",
+      "title": "15 countries of activity, one Cameroonian partner",
+      "text": "From Douala, MBSS coordinates deliveries across the sub-region and beyond. Tap a country to see its main port.",
+      "mapLabel": "Map of Africa with MBSS countries of activity highlighted",
+      "selected": "Selected country",
+      "homeBase": "MBSS home base",
+      "mainPort": "Main port",
+      "countries": "Countries of activity",
+      "baseCount": "Home base in Douala",
+      "note": "Main ports shown for reference. The ports MBSS actually serves are to be confirmed."
+    }
   },
   "news": {
     "eyebrow": "News",
@@ -297,7 +319,7 @@
     "name": "Full name",
     "company": "Company / shipowner",
     "email": "Email",
-    "phone": "Phone / WhatsApp",
+    "phone": "Phone",
     "vessel": "Vessel name",
     "imo": "IMO number",
     "imoHelp": "7 digits, optional",
@@ -320,9 +342,9 @@
     "optional": "optional",
     "responseNote": "Fast reply, 24/7.",
     "successTitle": "Request sent, thank you!",
-    "successText": "We have received your request and will come back to you very soon. For an emergency, call us or message us on WhatsApp.",
+    "successText": "We have received your request and will come back to you very soon. For an emergency, call us.",
     "newRequest": "Send another request",
-    "errorGeneric": "Something went wrong. Please try again, or contact us by phone or WhatsApp.",
+    "errorGeneric": "Something went wrong. Please try again, or contact us by phone.",
     "errorFileSize": "The file is larger than 5 MB.",
     "errorFileType": "File format not accepted (PDF, Excel, Word, CSV).",
     "errorTooMany": "Too many requests sent. Please try again in a few minutes.",

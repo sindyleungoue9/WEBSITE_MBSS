@@ -10,8 +10,6 @@ export const SITE = {
 
   phone: "+237233412743",
   phoneDisplay: "+237 2 33 41 27 43",
-  whatsapp: "237679693805",
-  whatsappDisplay: "+237 679 693 805",
   // Une seule adresse e-mail pro : définie dans .env.local (vide = non affichée)
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "",
 
@@ -43,8 +41,6 @@ export const SITE = {
 export function yearsOfExperience(now = new Date()) {
   return now.getFullYear() - SITE.founded;
 }
-
-export const WHATSAPP_URL = `https://wa.me/${SITE.whatsapp}`;
 
 // Menu principal : "key" correspond à messages/*.json > nav
 export const NAV = [

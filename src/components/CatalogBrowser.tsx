@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { CATALOG_FAMILIES } from "@/lib/site";
 import { Icon } from "./Icon";
@@ -87,23 +88,30 @@ export function CatalogBrowser() {
                   <p className="mt-1 text-[15px] text-muted">{t(`families.${f.key}.text`)}</p>
                 </div>
               </div>
-              <ul className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              <ul className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
                 {f.categories.map((c) => (
-                  <li
-                    key={c.key}
-                    className="flex items-center justify-between gap-3 border border-line bg-white px-5 py-4 text-navy"
-                  >
-                    <span className="flex items-center gap-3">
-                      <span className="text-leaf-dark">
-                        <Icon name="check" className="size-5" />
+                  <li key={c.key} className="relative flex flex-col border border-line bg-white text-navy">
+                    <div className="relative aspect-square w-full bg-white">
+                      {/* Photos de catégories (public/images/catalog/<clé>.jpg) */}
+                      <Image
+                        src={`/images/catalog/${c.key}.jpg`}
+                        alt=""
+                        fill
+                        sizes="(min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
+                        className="object-contain"
+                      />
+                      {"onRequest" in c && c.onRequest && (
+                        <span className="absolute left-2 top-2 bg-[#E8EEFF] px-2 py-1 text-xs font-bold uppercase tracking-[0.08em] text-brand">
+                          {t("onRequest")}
+                        </span>
+                      )}
+                    </div>
+                    <span className="flex flex-1 items-center gap-2 border-t border-line px-4 py-3 text-[15px] font-bold leading-snug">
+                      <span className="shrink-0 text-leaf-dark">
+                        <Icon name="check" className="size-4" />
                       </span>
                       {t(`categories.${c.key}`)}
                     </span>
-                    {"onRequest" in c && c.onRequest && (
-                      <span className="shrink-0 bg-[#E8EEFF] px-2 py-1 text-xs font-bold uppercase tracking-[0.08em] text-brand">
-                        {t("onRequest")}
-                      </span>
-                    )}
                   </li>
                 ))}
               </ul>
